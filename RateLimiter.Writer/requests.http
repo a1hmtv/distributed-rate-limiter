@@ -1,0 +1,15 @@
+
+GRPC localhost:5001/writer.Writer/CreateLimit
+
+{
+  "route": "GetUserById",
+  "requestsPerMinute": 10
+}
+
+###
+GRPC localhost:5001/writer.Writer/UpdateLimit
+        
+{
+"route": "GetUserById",
+"requestsPerMinute": 10
+}

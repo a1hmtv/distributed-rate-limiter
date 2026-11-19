@@ -1,0 +1,12 @@
+### Проверка
+GRPC localhost:5002/reader.Reader/Ping
+Content-Type: application/json
+
+{
+  "clientName": "test"
+}
+
+### Получить ограничения из кеша
+GRPC localhost:5002/reader.Reader/GetAllLimits
+
+{}
